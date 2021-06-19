@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*--css by farmer 0617--*/
+
+* {
+    /* border: 1px solid blue; */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: PingFang TC;
+    color: #3F5D45;
+}
+
+a {
+    text-decoration: none;
+    color: #3F5D45;
+    display: block;
+    transition: 0.3s all ease;
+}
+
+
+.container {
+    width: 940px;
+    margin: auto;
+    padding-bottom: 200px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.nav-list {
+    display: flex;
+    font-size: 16px;
+}
+
+.nav-list a {
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 40px;
+    border-radius: 10px;
+}
+
+.nav-list a:hover{
+    background-color: #3F5D45;
+    color:  #EAF0ED;
+}
+
+.content-region {
+    display: flex;
+    margin-top: 60px;
+}
+
+.class-list {
+    width: 300px;
+}
+
+.class-list h2 {
+    height: 65px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 65px;
+    background-color: #3F5D45;
+    color: #EAF0ED;
+}
+
+.class-list li {
+    height: 65px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 65px;
+    border: 1px solid #EAF0ED;
+    margin-top: -1px;
+}
+
+.class-list a:hover{
+    background-color: #EAF0ED;
+}
+
+.item-list {
+    width: 620px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.item-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    width: 300px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.love-icon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #3F5D45;
+    color: #EAF0ED;
+    position: absolute;
+    font-size: 16px;
+    line-height: 20px;
+    top: 0px;
+    left: 20px;
+    padding: 10px;
+}
+
+.love-icon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.item-name {
+    display: flex;
+}
+
+.item-name h3 {
+    display: inline-block;
+    width: 170px;
+    font-size: 20px;
+    line-height: 56px;
+    text-align: center;
+    border: 1px solid #EAF0ED;
+}
+
+.item-name span {
+    font-size: 20px;
+    line-height: 56px;
+    width: 130px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #EAF0ED;
+    margin-left: -1px;
+}
+
+.item a {
+    width: 100%;
+    height: 65px;
+    background-color: #EAF0ED;
+    font-size: 24px;
+    line-height: 65px;
+    text-align: center;
+}
+
+.item a:hover {
+    background-color: #3F5D45;
+    color: #EAF0ED;
+}
+
+.pagination {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.pagination ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pagination ul li {
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #EAF0ED;
+}
+
+.pagination li:hover .selected {
+    background-color: #EAF0ED;
+}
+
+.pagination li .actived {
+    background-color: #3F5D45;
+    color: #EAF0ED;
+}
